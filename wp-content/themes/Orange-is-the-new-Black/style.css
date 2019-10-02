@@ -1,0 +1,161 @@
+/*
+Theme Name: Orange is the new Black
+Theme URI: 
+Author: Simas
+Author URI: 
+Description: I made this :) 
+
+*/
+
+
+/*  
+    primary: #FFA902; Shade
+    ndary: #FFFFFF; White
+
+    
+*/
+*{  font-family: 'Raleway', sans-serif;
+    padding:0;
+    margin: 0;
+    color: #ffa902;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #FFA902; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+body{
+    background-image: url(img/bgdark.png);
+    
+   overflow-x: hidden;
+}
+
+#nav{
+    padding: 45px;
+}
+#nav a:hover{
+    color: #fff;
+}
+#navi{
+    margin-top: 20px;
+    
+}
+
+ #navi a{
+    
+    padding: 0 10px 0;
+    text-decoration: none;
+    color: #ffa902;
+}
+#sdg h1 {
+   margin: 200px 0 0 0;
+   color: #fff;
+   font-size: 55px;
+   letter-spacing: 17px;
+   font-weight: 600
+}
+#sdg h2{
+    font-size: 34px;
+    font-weight: 500;
+}
+#sdg p{
+    text-transform: uppercase;
+     font-size: 15px;
+     font-weight: 700;
+}
+#bulb{
+    -ms-transform: rotate(270deg); /* IE 9 */
+    -webkit-transform: rotate(270deg); /* Safari 3-8 */
+    transform: rotate(270deg);
+    max-height: 500px;
+    position: absolute;
+    margin-top: 70px;
+    
+}
+
+#btn{
+    width: 250px;
+    letter-spacing: 7px;
+    border: #ffa902 2px solid;
+    padding: 10px  10px 10px;
+    border-radius: 20px;
+    text-align: center;
+  
+}
+
+
+
+#btn a{
+    text-decoration: none;
+    color: #fff;
+    padding: 13px;
+    font-weight: 450;
+    text-decoration: none;
+}
+
+#btn a:hover{
+color: #ffa902;
+}
+
+#infoBox{
+    margin: 200px 0 0 0;
+}
+
+#infoBox img{
+   border-radius: 15px;
+}
+#infoBox img:hover{
+    opacity: 0.7;
+    filter: alpha(opacity=70); /* For IE8 and earlier */
+}
+
+#infoBox p{
+   
+    padding: 25px 60px;
+    border-radius: 40px;
+}
+
+#card {
+    background-color: none;
+    text-align: center;
+    border: #FFA902 4px solid;
+    padding: 25px;
+    border-radius: 40px;
+}
+
+
+.pikachu{
+    margin:150px 0 0 0;
+}
+
+span{
+    color: #fff;
+    font-weight: 700;
+}
+
+.pikachu h2{
+    font-weight: 500;
+}
+
+#socket{
+    position: absolute;
+    height: 320px ;
+}
+
+.graph{
+    margin: 100px 0 0 0;
+}
